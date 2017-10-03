@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="app_name_caps">TO DO LIST</string>
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
+</resources>

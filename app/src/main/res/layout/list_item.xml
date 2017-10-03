@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/list_item_selector">
+
+    <TextView
+        android:id="@+id/textview_task_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="0"
+        android:textSize="25dp"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textview_list_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="placeholder"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_toRightOf="@id/textview_task_number"/>
+
+    <TextView
+        android:id="@+id/textview_list_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="placeholder"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorGray"
+        android:layout_below="@id/textview_list_task_title"
+        android:layout_toRightOf="@id/textview_task_number" />
+
+</RelativeLayout>
